@@ -1,0 +1,81 @@
+2026-04-22T03:34:50+00:00 DEBUG #4458 - [New Request] GET /22-04/wp-admin/admin.php
+2026-04-22T03:34:50+00:00 DEBUG #4458 - GET https://api.woocommerce.com/integrations/ppc/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2026-04-22T03:34:50+00:00 WARNING #4458 - [Error] Not Found CONTEXT: {"args":{"method":"GET","headers":{"Authorization":"Bearer token","Content-Type":"application/json"}},"response":{"headers":{},"body":"{"statusCode":404,"error":"Not Found","message":"Not Found"}","response":{"code":404,"message":"Not Found"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}}
+2026-04-22T03:35:02+00:00 DEBUG #7122 - [New Request] GET /22-04/index.php
+2026-04-22T03:35:02+00:00 DEBUG #7122 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2026-04-22T03:35:45+00:00 DEBUG #2819 - [New Request] POST /22-04/index.php
+2026-04-22T03:35:45+00:00 INFO #2819 - Generating onboarding URL for: production-express_checkout-
+2026-04-22T03:35:46+00:00 DEBUG #2819 - POST https://api.woocommerce.com/integrations/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"return_url":"http:\/\/localhost\/22-04\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway&ppcpToken=eyJrIjoicHJvZHVjdGlvbi1leHByZXNzX2NoZWNrb3V0LSIsInUiOjEsImgiOiJiMTdkZDRhMzlhYWI0ZjIxZmU4NzE5OGFmYjlmZGI2OCJ9","return_url_description":"Return to your shop.","show_add_credit_card":false},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","TRACKING_SHIPMENT_READWRITE","BILLING_AGREEMENT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: d2a71a80ed91f
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2026-04-22T03:35:52+00:00 DEBUG #2499 - [New Request] POST /22-04/index.php
+2026-04-22T03:35:52+00:00 DEBUG #2499 - Loaded onboarding URL from cache: production-express_checkout-
+2026-04-22T03:35:52+00:00 INFO #2499 - Using cached onboarding URL for: production-express_checkout-
+2026-04-22T03:35:52+00:00 DEBUG #1404 - [New Request] POST /22-04/index.php
+2026-04-22T03:35:52+00:00 DEBUG #1404 - Loaded onboarding URL from cache: production-express_checkout-
+2026-04-22T03:35:52+00:00 INFO #1404 - Using cached onboarding URL for: production-express_checkout-
+2026-04-22T03:36:32+00:00 DEBUG #3335 - [New Request] POST /22-04/index.php
+2026-04-22T03:36:32+00:00 INFO #3335 - Storing one-time OAuth credentials... CONTEXT: {"shared_id":"BAAhqvnWPSPbX5pCtLiZY22igBK3A9aVpw5q1ogZoDH201n6lp_PF7kbHO2o6VgZ35_S2kkazctyjqIvKI","auth_code":"C21AANmYTo-sjq2LQdiNsGFC2UY3KskuFo4h6gYMyVHcp3LBsCrnVFA3efCPqaF5CcZrUS-0a8NFN4-rlpScO8TcF9qlCBclA","use_sandbox":false}
+2026-04-22T03:37:20+00:00 DEBUG #3552 - [New Request] GET /22-04/index.php
+2026-04-22T03:37:20+00:00 DEBUG #3552 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2026-04-22T03:37:24+00:00 DEBUG #4143 - [New Request] POST /22-04/index.php
+2026-04-22T03:37:24+00:00 DEBUG #4143 - Loaded onboarding URL from cache: production-express_checkout-
+2026-04-22T03:37:24+00:00 INFO #4143 - Using cached onboarding URL for: production-express_checkout-
+2026-04-22T03:37:36+00:00 DEBUG #8989 - [New Request] POST /22-04/index.php
+2026-04-22T03:37:36+00:00 DEBUG #8989 - Loaded onboarding URL from cache: production-express_checkout-
+2026-04-22T03:37:36+00:00 INFO #8989 - Using cached onboarding URL for: production-express_checkout-
+2026-04-22T03:37:37+00:00 DEBUG #2506 - [New Request] POST /22-04/index.php
+2026-04-22T03:37:37+00:00 DEBUG #2506 - Loaded onboarding URL from cache: production-express_checkout-
+2026-04-22T03:37:37+00:00 INFO #2506 - Using cached onboarding URL for: production-express_checkout-
+2026-04-22T03:38:04+00:00 DEBUG #6594 - [New Request] GET /22-04/index.php
+2026-04-22T03:38:04+00:00 DEBUG #6594 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2026-04-22T03:38:07+00:00 DEBUG #2312 - [New Request] POST /22-04/index.php
+2026-04-22T03:38:07+00:00 DEBUG #2312 - Loaded onboarding URL from cache: production-express_checkout-
+2026-04-22T03:38:07+00:00 INFO #2312 - Using cached onboarding URL for: production-express_checkout-
+2026-04-22T03:38:12+00:00 DEBUG #9922 - [New Request] POST /22-04/index.php
+2026-04-22T03:38:12+00:00 DEBUG #9922 - Loaded onboarding URL from cache: production-express_checkout-
+2026-04-22T03:38:12+00:00 INFO #9922 - Using cached onboarding URL for: production-express_checkout-
+2026-04-22T03:38:12+00:00 DEBUG #3063 - [New Request] POST /22-04/index.php
+2026-04-22T03:38:12+00:00 DEBUG #3063 - Loaded onboarding URL from cache: production-express_checkout-
+2026-04-22T03:38:12+00:00 INFO #3063 - Using cached onboarding URL for: production-express_checkout-
+2026-04-22T03:38:38+00:00 DEBUG #6612 - [New Request] POST /22-04/index.php
+2026-04-22T03:38:38+00:00 INFO #6612 - Storing one-time OAuth credentials... CONTEXT: {"shared_id":"BAALiX2JHiw40u94ZHAr-3ZYN5LzjZwBCANL_GJ8JspBzKHvYSTgfJJd19acPe6OmaJ07hxZ5-xYQWsaZw","auth_code":"C21AAOHAYzImc8R9b0FVpBXjiiBp411ncND3WG-xavq7hD-RtHREYLTgK5-R4vZi_thdKUVYrbGBEElSCtfHE-D0os88Fj6Qg","use_sandbox":false}
